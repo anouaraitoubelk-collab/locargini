@@ -16,7 +16,7 @@
       font-family: 'Segoe UI', Tahoma, Helvetica, Arial, sans-serif;
     }
     *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--dark);line-height:1.4}
+    body{margin:0;background:var(--bg);color:var(blue dark);line-height:1.4}
     header{background:linear-gradient(90deg,var(--accent),#10b981);color:white;padding:20px 16px}
     .container{max-width:1100px;margin:20px auto;padding:0 16px}
     header .top{display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -64,7 +64,7 @@
       <div style="display:flex;align-items:center;gap:12px">
         <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=80&q=60" alt="logo" style="width:48px;height:48px;border-radius:8px;object-fit:cover">
         <div>
-          <h1>VotreAgence — Location de voitures</h1>
+          <h1>VotreAgence — Anouar's car'S</h1>
           <div style="font-size:13px;opacity:0.9">Confort • Fiabilité • Prix compétitifs</div>
         </div>
       </div>
@@ -83,7 +83,8 @@
       <p>Flotte moderne, tarifs clairs, service client réactif.</p>
 
       <div class="search-bar" style="margin-top:18px">
-        <input type="text" id="ville" placeholder="Ville (ex: Casablanca)">
+        <input type="text" id="TIZNIT" placeholder="TIZNIT
+         (ex: Casablanca)">
         <input type="date" id="date-debut">
         <input type="date" id="date-fin">
         <button class="btn" onclick="rechercher()">Rechercher</button>
@@ -99,8 +100,8 @@
           <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=60" alt="compact">
           <div class="body">
             <h3>Compact - Renault Clio</h3>
-            <div class="meta"><span>Manuelle • 5 places</span><span class="price">300 MAD / jour</span></div>
-            <div class="actions"><button class="btn" onclick="ouvrirModal('Renault Clio')">Réserver</button></div>
+            <div class="meta"><span>Manuelle • 5 places</span><span class="price">2500 MAD / jour</span></div>
+            <div class="actions"><button class="btn" onclick="ouvrirModal('BMW COMPETITION SERIE')">Réserver</button></div>
           </div>
         </div>
 
@@ -108,7 +109,7 @@
           <img src="https://images.unsplash.com/photo-1549921296-3d1a8b9f6a3a?auto=format&fit=crop&w=800&q=60" alt="sedan">
           <div class="body">
             <h3>Berline - Toyota Corolla</h3>
-            <div class="meta"><span>Automatique • 5 places</span><span class="price">450 MAD / jour</span></div>
+            <div class="meta"><span>Automatique • 5 places</span><span class="price">1000 MAD / jour</span></div>
             <div class="actions"><button class="btn" onclick="ouvrirModal('Toyota Corolla')">Réserver</button></div>
           </div>
         </div>
@@ -117,8 +118,8 @@
           <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=60" alt="suv">
           <div class="body">
             <h3>SUV - Nissan X-Trail</h3>
-            <div class="meta"><span>Automatique • 7 places</span><span class="price">700 MAD / jour</span></div>
-            <div class="actions"><button class="btn" onclick="ouvrirModal('Nissan X-Trail')">Réserver</button></div>
+            <div class="meta"><span>Automatique • 7 places</span><span class="price">7000 MAD / jour</span></div>
+            <div class="actions"><button class="btn" onclick="ouvrirModal('PORCHE 911')">Réserver</button></div>
           </div>
         </div>
 
@@ -127,7 +128,7 @@
 
     <footer>
       <p>© 2025 VotreAgence — Tous droits réservés</p>
-      <p style="font-size:13px;color:var(--muted)">Contact: +212 6X XX XX XX • email@votreagence.ma</p>
+      <p style="font-size:13px;color:var(--muted)">Contact: +212 684964452 • anouaraitoubelk@gmail.com</p>
     </footer>
   </main>
 
@@ -167,4 +168,3 @@
       fermerModal();
     }
     function re
-    
